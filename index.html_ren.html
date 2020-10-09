@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SnackTrenz | Snacking Better Every Day</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/Waffle-TopDown@2x.png" type="image/png" />
+    <style>
+    	html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}button{background-color:transparent;background-image:none}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}fieldset,ol,ul{margin:0;padding:0}ol,ul{list-style:none}html{font-family:Roboto,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}hr{border-top-width:1px}img{border-style:solid}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#a0aec0}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#a0aec0}input::placeholder,textarea::placeholder{color:#a0aec0}[role=button],button{cursor:pointer}table{border-collapse:collapse}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}button,input,optgroup,select,textarea{padding:0;line-height:inherit;color:inherit}code,kbd,pre,samp{font-family:Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}.container{width:100%;margin-right:auto;margin-left:auto;padding-right:20px;padding-left:20px}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}.space-y-0>:not(template)~:not(template){--space-y-reverse:0;margin-top:calc(0px*(1 - var(--space-y-reverse)));margin-bottom:calc(0px*var(--space-y-reverse))}.space-x-2>:not(template)~:not(template){--space-x-reverse:0;margin-right:calc(0.5rem*var(--space-x-reverse));margin-left:calc(0.5rem*(1 - var(--space-x-reverse)))}.space-x-3>:not(template)~:not(template){--space-x-reverse:0;margin-right:calc(0.75rem*var(--space-x-reverse));margin-left:calc(0.75rem*(1 - var(--space-x-reverse)))}.space-y-4>:not(template)~:not(template){--space-y-reverse:0;margin-top:calc(1rem*(1 - var(--space-y-reverse)));margin-bottom:calc(1rem*var(--space-y-reverse))}.space-y-5>:not(template)~:not(template){--space-y-reverse:0;margin-top:calc(1.25rem*(1 - var(--space-y-reverse)));margin-bottom:calc(1.25rem*var(--space-y-reverse))}.space-y-6>:not(template)~:not(template){--space-y-reverse:0;margin-top:calc(1.5rem*(1 - var(--space-y-reverse)));margin-bottom:calc(1.5rem*var(--space-y-reverse))}.space-x-6>:not(template)~:not(template){--space-x-reverse:0;margin-right:calc(1.5rem*var(--space-x-reverse));margin-left:calc(1.5rem*(1 - var(--space-x-reverse)))}.space-x-8>:not(template)~:not(template){--space-x-reverse:0;margin-right:calc(2rem*var(--space-x-reverse));margin-left:calc(2rem*(1 - var(--space-x-reverse)))}.space-y-10>:not(template)~:not(template){--space-y-reverse:0;margin-top:calc(2.5rem*(1 - var(--space-y-reverse)));margin-bottom:calc(2.5rem*var(--space-y-reverse))}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-yellow{--bg-opacity:1;background-color:#ffd25e;background-color:rgba(255,210,94,var(--bg-opacity))}.bg-greenline{--bg-opacity:1;background-color:#6bbac8;background-color:rgba(107,186,200,var(--bg-opacity))}.bg-greenbg{--bg-opacity:1;background-color:#65b7c6;background-color:rgba(101,183,198,var(--bg-opacity))}.bg-graybg{--bg-opacity:1;background-color:#f1f5f5;background-color:rgba(241,245,245,var(--bg-opacity))}.bg-primary{--bg-opacity:1;background-color:#312c2c;background-color:rgba(49,44,44,var(--bg-opacity))}.hover\:bg-yellow:hover{--bg-opacity:1;background-color:#ffd25e;background-color:rgba(255,210,94,var(--bg-opacity))}.hover\:bg-primary:hover{--bg-opacity:1;background-color:#312c2c;background-color:rgba(49,44,44,var(--bg-opacity))}.bg-top{background-position:top}.bg-no-repeat{background-repeat:no-repeat}.bg-cover{background-size:cover}.border-white{--border-opacity:1;border-color:#fff;border-color:rgba(255,255,255,var(--border-opacity))}.border-yellow{--border-opacity:1;border-color:#ffd25e;border-color:rgba(255,210,94,var(--border-opacity))}.border-primary{--border-opacity:1;border-color:#312c2c;border-color:rgba(49,44,44,var(--border-opacity))}.focus\:border-greenbg:focus,.hover\:border-greenbg:hover{--border-opacity:1;border-color:#65b7c6;border-color:rgba(101,183,198,var(--border-opacity))}.rounded{border-radius:.25rem}.rounded-lg{border-radius:.5rem}.rounded-full{border-radius:9999px}.border-2{border-width:2px}.border{border-width:1px}.border-b-8{border-bottom-width:8px}.border-t{border-top-width:1px}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.table{display:table}.hidden{display:none}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.font-light{font-weight:300}.font-medium{font-weight:500}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.h-0{height:0}.h-2{height:.5rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-10{height:2.5rem}.h-15{height:60px}.h-20{height:80px}.h-auto{height:auto}.h-12-5px{height:50px}.h-37-5px{height:150px}.text-xs{font-size:.75rem}.text-lg{font-size:1.125rem}.text-2xl{font-size:1.5rem}.leading-none{line-height:1}.leading-tight{line-height:1.25}.mx-auto{margin-left:auto;margin-right:auto}.mr-3{margin-right:.75rem}.mb-4{margin-bottom:1rem}.mt-5{margin-top:1.25rem}.mb-5{margin-bottom:1.25rem}.mb-8{margin-bottom:2rem}.mb-10{margin-bottom:2.5rem}.-ml-1{margin-left:-.25rem}.max-w-sm{max-width:24rem}.max-w-2xl{max-width:42rem}.max-w-4xl{max-width:56rem}.max-w-5xl{max-width:64rem}.max-w-6xl{max-width:72rem}.object-contain{-o-object-fit:contain;object-fit:contain}.opacity-25{opacity:.25}.opacity-75{opacity:.75}.outline-none{outline:0}.overflow-hidden{overflow:hidden}.overflow-x-hidden{overflow-x:hidden}.overflow-y-hidden{overflow-y:hidden}.px-1{padding-left:.25rem;padding-right:.25rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-8{padding-top:2rem;padding-bottom:2rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.pl-3{padding-left:.75rem}.pt-4{padding-top:1rem}.pb-8{padding-bottom:2rem}.pt-10{padding-top:2.5rem}.pb-10{padding-bottom:2.5rem}.placeholder-gray-700::-moz-placeholder{--placeholder-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--placeholder-opacity))}.placeholder-gray-700:-ms-input-placeholder{--placeholder-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--placeholder-opacity))}.placeholder-gray-700::placeholder{--placeholder-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--placeholder-opacity))}.pointer-events-none{pointer-events:none}.absolute{position:absolute}.relative{position:relative}.inset-1\/2{top:50%;right:50%;bottom:50%;left:50%}.top-0{top:0}.right-0{right:0}.bottom-0{bottom:0}.left-0{left:0}.text-center{text-align:center}.text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.text-red-500{--text-opacity:1;color:#f56565;color:rgba(245,101,101,var(--text-opacity))}.text-primary{--text-opacity:1;color:#312c2c;color:rgba(49,44,44,var(--text-opacity))}.hover\:text-yellow:hover{--text-opacity:1;color:#ffd25e;color:rgba(255,210,94,var(--text-opacity))}.hover\:text-greenbg:hover{--text-opacity:1;color:#65b7c6;color:rgba(101,183,198,var(--text-opacity))}.hover\:text-primary:hover{--text-opacity:1;color:#312c2c;color:rgba(49,44,44,var(--text-opacity))}.uppercase{text-transform:uppercase}.w-4{width:1rem}.w-5{width:1.25rem}.w-10{width:2.5rem}.w-16{width:4rem}.w-32{width:8rem}.w-56{width:14rem}.w-5\/12{width:41.666667%}.w-7\/12{width:58.333333%}.w-full{width:100%}.z-0{z-index:0}.z-10{z-index:10}.z-20{z-index:20}.transform{--transform-translate-x:0;--transform-translate-y:0;--transform-rotate:0;--transform-skew-x:0;--transform-skew-y:0;--transform-scale-x:1;--transform-scale-y:1;transform:translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y))}.scale-75{--transform-scale-x:.75;--transform-scale-y:.75}.scale-85{--transform-scale-x:0.85;--transform-scale-y:0.85}.scale-100{--transform-scale-x:1;--transform-scale-y:1}.rotate-45{--transform-rotate:45deg}.-rotate-90{--transform-rotate:-90deg}.-rotate-45{--transform-rotate:-45deg}.hover\:-rotate-10:hover{--transform-rotate:-10deg}.translate-x-4{--transform-translate-x:1rem}.-translate-x-4{--transform-translate-x:-1rem}.-translate-x-16{--transform-translate-x:-4rem}.-translate-x-20{--transform-translate-x:-5rem}.-translate-x-56{--transform-translate-x:-14rem}.-translate-x-1\/2{--transform-translate-x:-50%}.translate-x-1\/2{--transform-translate-x:50%}.translate-y-0{--transform-translate-y:0}.translate-y-4{--transform-translate-y:1rem}.translate-y-6{--transform-translate-y:1.5rem}.translate-y-10{--transform-translate-y:2.5rem}.translate-y-16{--transform-translate-y:4rem}.-translate-y-10{--transform-translate-y:-2.5rem}.-translate-y-20{--transform-translate-y:-5rem}.-translate-y-24{--transform-translate-y:-6rem}.-translate-y-1\/2{--transform-translate-y:-50%}.translate-y-1\/2{--transform-translate-y:50%}.transition-all{transition-property:all}.transition{transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform}.duration-150{transition-duration:.15s}@-webkit-keyframes spin{to{transform:rotate(1turn)}}@keyframes spin{to{transform:rotate(1turn)}}@-webkit-keyframes ping{75%,to{transform:scale(2);opacity:0}}@keyframes ping{75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{50%{opacity:.5}}@keyframes pulse{50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}.animate-spin{-webkit-animation:spin 1s linear infinite;animation:spin 1s linear infinite}@media (min-width:640px){.sm\:container{width:100%;margin-right:auto;margin-left:auto;padding-right:20px;padding-left:20px;max-width:640px}@media (min-width:768px){.sm\:container{max-width:768px}}@media (min-width:1024px){.sm\:container{max-width:1024px}}@media (min-width:1280px){.sm\:container{max-width:1280px}}}@media (min-width:768px){.md\:container{width:100%;margin-right:auto;margin-left:auto;padding-right:20px;padding-left:20px}@media (min-width:640px){.md\:container{max-width:640px}}@media (min-width:768px){.md\:container{max-width:768px}}@media (min-width:1024px){.md\:container{max-width:1024px}}@media (min-width:1280px){.md\:container{max-width:1280px}}.md\:space-y-0>:not(template)~:not(template){--space-y-reverse:0;margin-top:calc(0px*(1 - var(--space-y-reverse)));margin-bottom:calc(0px*var(--space-y-reverse))}.md\:flex{display:flex}.md\:flex-row{flex-direction:row}.md\:flex-row-reverse{flex-direction:row-reverse}.md\:mr-0{margin-right:0}.md\:mb-0{margin-bottom:0}.md\:ml-0{margin-left:0}.md\:opacity-100{opacity:1}.md\:py-0{padding-top:0;padding-bottom:0}.md\:py-6{padding-top:1.5rem;padding-bottom:1.5rem}.md\:pt-8{padding-top:2rem}.md\:absolute{position:absolute}.md\:right-0{right:0}.md\:w-auto{width:auto}.md\:w-5\/12{width:41.666667%}.md\:w-7\/12{width:58.333333%}.md\:transform{--transform-translate-x:0;--transform-translate-y:0;--transform-rotate:0;--transform-skew-x:0;--transform-skew-y:0;--transform-scale-x:1;--transform-scale-y:1;transform:translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y))}.md\:-translate-x-2{--transform-translate-x:-0.5rem}}@media (min-width:1024px){.lg\:container{width:100%;margin-right:auto;margin-left:auto;padding-right:20px;padding-left:20px}@media (min-width:640px){.lg\:container{max-width:640px}}@media (min-width:768px){.lg\:container{max-width:768px}}@media (min-width:1024px){.lg\:container{max-width:1024px}}@media (min-width:1280px){.lg\:container{max-width:1280px}}.lg\:block{display:block}.lg\:flex{display:flex}.lg\:h-25{height:100px}.lg\:text-lg{font-size:1.125rem}.lg\:text-xl{font-size:1.25rem}.lg\:mb-10{margin-bottom:2.5rem}.lg\:max-w-md{max-width:28rem}.lg\:py-4{padding-top:1rem;padding-bottom:1rem}.lg\:pt-0{padding-top:0}.lg\:pt-20{padding-top:5rem}.lg\:text-left{text-align:left}}@media (min-width:1280px){.xl\:container{width:100%;margin-right:auto;margin-left:auto;padding-right:20px;padding-left:20px}@media (min-width:640px){.xl\:container{max-width:640px}}@media (min-width:768px){.xl\:container{max-width:768px}}@media (min-width:1024px){.xl\:container{max-width:1024px}}@media (min-width:1280px){.xl\:container{max-width:1280px}}.xl\:border-b-15{border-bottom-width:15px}.xl\:block{display:block}.xl\:inline-block{display:inline-block}.xl\:h-115{height:460px}.xl\:text-4xl{font-size:2.25rem}.xl\:mb-3{margin-bottom:.75rem}.xl\:mb-8{margin-bottom:2rem}.xl\:mt-10{margin-top:2.5rem}.xl\:mb-16{margin-bottom:4rem}.xl\:mb-24{margin-bottom:6rem}.xl\:max-w-lg{max-width:32rem}.xl\:max-w-6xl{max-width:72rem}.xl\:max-w-full{max-width:100%}.xl\:py-0{padding-top:0;padding-bottom:0}.xl\:py-16{padding-top:4rem;padding-bottom:4rem}.xl\:pt-8{padding-top:2rem}.xl\:absolute{position:absolute}.xl\:w-5\/12{width:41.666667%}.xl\:w-7\/12{width:58.333333%}.xl\:transform{--transform-translate-x:0;--transform-translate-y:0;--transform-rotate:0;--transform-skew-x:0;--transform-skew-y:0;--transform-scale-x:1;--transform-scale-y:1;transform:translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y))}.xl\:translate-x-24{--transform-translate-x:6rem}.xl\:-translate-x-32{--transform-translate-x:-8rem}}
+    </style>
+    <style>
+    	@-webkit-keyframes spaceboots{0%{-webkit-transform:translate(2px,1px) rotate(0)}10%{-webkit-transform:translate(-1px,-2px) rotate(-1deg)}20%{-webkit-transform:translate(-3px) rotate(1deg)}30%{-webkit-transform:translateY(2px) rotate(0)}40%{-webkit-transform:translate(1px,-1px) rotate(1deg)}50%{-webkit-transform:translate(-1px,2px) rotate(-1deg)}60%{-webkit-transform:translate(-3px,1px) rotate(0)}70%{-webkit-transform:translate(2px,1px) rotate(-1deg)}80%{-webkit-transform:translate(-1px,-1px) rotate(1deg)}90%{-webkit-transform:translate(2px,2px) rotate(0)}to{-webkit-transform:translate(1px,-2px) rotate(-1deg)}0%{transform:translate(2px,1px) rotate(0)}10%{transform:translate(-1px,-2px) rotate(-1deg)}20%{transform:translate(-3px) rotate(1deg)}30%{transform:translateY(2px) rotate(0)}40%{transform:translate(1px,-1px) rotate(1deg)}50%{transform:translate(-1px,2px) rotate(-1deg)}60%{transform:translate(-3px,1px) rotate(0)}70%{transform:translate(2px,1px) rotate(-1deg)}80%{transform:translate(-1px,-1px) rotate(1deg)}90%{transform:translate(2px,2px) rotate(0)}to{transform:translate(1px,-2px) rotate(-1deg)}}@keyframes spaceboots{0%{transform:translate(2px,1px) rotate(0)}10%{transform:translate(-1px,-2px) rotate(-1deg)}20%{transform:translate(-3px) rotate(1deg)}30%{transform:translateY(2px) rotate(0)}40%{transform:translate(1px,-1px) rotate(1deg)}50%{transform:translate(-1px,2px) rotate(-1deg)}60%{transform:translate(-3px,1px) rotate(0)}70%{transform:translate(2px,1px) rotate(-1deg)}80%{transform:translate(-1px,-1px) rotate(1deg)}90%{transform:translate(2px,2px) rotate(0)}to{transform:translate(1px,-2px) rotate(-1deg)}}.shake:focus,.shake:hover{-webkit-animation-name:spaceboots;animation-name:spaceboots;-webkit-animation-duration:.8s;animation-duration:.8s;transform-origin:50% 50%;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:linear;animation-timing-function:linear}
+    </style>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        window.OneSignal = window.OneSignal || [];
+	  OneSignal.push(function() {
+	    OneSignal.init({
+	      appId: "ef562ed0-a463-4ffa-9113-20e1986d4d5c",
+	    });
+	  });
+	</script>
+</head>
+
+<body class="text-primary overflow-x-hidden">
+    <header class="bg-greenline">
+        <div class="container h-20 lg:h-25 flex justify-between items-center">
+            <a href="#" class="inline-block mx-auto md:ml-0">
+                <img src="images/nav-logo.png" srcset="images/nav-logo.png 1x, images/nav-logo@2x.png 2x" alt="">
+            </a>
+            <nav class="hidden md:flex space-x-8 text-lg">
+                <a href="#section2" class="text-white hover:text-yellow">Pretzels</a>
+                <a href="#section4" class="text-white hover:text-yellow">Waffle Snacks</a>
+                <a href="#contact" class="text-white hover:text-yellow">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <section class="banner relative xl:h-115 overflow-x-hidden overflow-y-hidden">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide bg-yellow bg-cover bg-top bg-no-repeat" style="background-image: url('/images/hero-container.jpg');">
+                    <div class="container py-10 xl:py-0 xl:h-115 xl:max-w-6xl mx-auto lg:flex">
+                        <div class="w-full xl:w-7/12 bg-green relative overflow-hidden">
+                            <img src="images/Glutennial-8oz-SeaSalt-slider.png" class="mx-auto max-w-sm xl:max-w-full xl:absolute xl:bottom-5 left-0 transform xl:-translate-x-32" srcset="images/Glutennial-8oz-SeaSalt-slider.png 1x, images/Glutennial-8oz-SeaSalt-slider@2x.png 2x">
+                        </div>
+                        <div class="w-full xl:w-5/12 flex lg:pt-20">
+                            <div class="flex flex-col pt-10 pb-10 space-y-0">
+                                <h2 class="text-center lg:text-left text-2xl xl:text-4xl font-extrabold">
+                                    NEW FROM SNACK TRENZ:<br />
+                                    <span class="relative px-1 leading-none h-0" style="top: -10px; background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #65b7c6 50%, #65b7c6 90%, transparent 90%, transparent 100%);">PRETZEL LOGIC</span>
+                                </h2>
+                                <p class="font-medium text-center lg:text-left lg:text-lg">Our Glutennial Pretzel line combines better-for you<br class="hidden xl:inline-block" /> grain-free snacking with revolutionary flavors and crunch.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide bg-yellow bg-cover bg-top bg-no-repeat" style="background-image: url('/images/hero-container.jpg');">
+                    <div class="container py-10 xl:py-0 xl:h-115 xl:max-w-6xl mx-auto lg:flex">
+                        <div class="w-full xl:w-7/12 bg-green relative overflow-hidden">
+                            <img src="images/Glutennial-8oz-SeaSalt-slider.png" class="xl:absolute xl:bottom-5" srcset="images/Glutennial-8oz-SeaSalt-slider.png 1x, images/Glutennial-8oz-SeaSalt-slider@2x.png 2x" alt="" style="bottom:-145px; left: -90px">
+                        </div>
+                        <div class="w-full xl:w-5/12 flex items-center">
+                            <div class="flex flex-col space-y-0">
+                                <h2 class="text-2xl xl:text-4xl font-extrabold">
+                                    NEW FROM SNACK TRENZ:<br />
+                                    <span class="relative px-1 leading-none h-0" style="top: -10px; background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #65b7c6 50%, #65b7c6 90%, transparent 90%, transparent 100%);">PRETZEL LOGIC</span>
+                                </h2>
+                                <p class="font-medium text-center lg:text-left lg:text-xl">Our Glutennial Pretzel line combines better-for you<br class="hidden xl:inline-block" /> grain-free snacking with revolutionary flavors and crunch.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden xl:block sliderPager absolute w-full bottom-0 z-20">
+                <div class="container max-w-5xl text-center flex">
+                    <div class="w-7/12"></div>
+                    <div class="w-5/12">
+                        <nav id="bx-pager" class="flex space-x-3 transform -translate-y-24 pl-3">
+                            <a data-slide-index="0" href="#/" class="rounded-full inline-block w-4 h-4 bg-white border-2 border-white transition duration-150 transition-all hover:border-greenbg focus:border-greenbg"></a>
+                            <a data-slide-index="1" href="#/" class="rounded-full inline-block w-4 h-4 bg-white border-2 border-white transition duration-150 transition-all hover:border-greenbg focus:border-greenbg"></a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-end absolute w-full bottom-0 overflow-hidden text-white" style="height: 88px;">
+            <svg class="w-full" viewBox="0 0 1441 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: relative; top: 1px;">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g fill="#ffffff">
+                        <path d="M0.0516800472,83.8011936 L1440.01062,83.7793634 L1440.01062,15.3163282 C1300.60186,41.4489778 1171.14637,53.6913495 1051.64417,52.0434434 C872.390873,49.5715842 597.936631,-4.28109752 405.292589,0.27323893 C212.648547,4.82757538 0.0271622657,60.0817807 0,70.4194883 C0,77.9192205 0.0172266824,82.3797889 0.0516800472,83.8011936 Z"></path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </section>
+    <section id="section2" class="pb-8 xl:py-16 xl:pt-8 overflow-hidden overflow-x-hidden">
+        <div class="container py-8 lg:pt-0 lg:py-4 max-w-5xl text-center">
+            <h2 class="text-2xl mb-4 xl:text-4xl font-extrabold xl:mb-3">
+                <span class="relative px-1 leading-none h-2" style="background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #ffd25e 50%, #ffd25e 90%, #ffffff 90%, #ffffff 100%);">
+                    WHO KNEW GLUTEN-FREE COULD BE SO GOOD?
+                </span>
+            </h2>
+            <p class="mb-8 xl:mb-24 text-lg max-w-4xl mx-auto">Snack Trenz has been reinventing the snack category with tastier health-conscious snacks. Our team of culinary snack food chefs combine simple ingredients baked up with crazy delicious flavors.</p>
+        </div>
+        <div class="tripleColumn container flex flex-col space-y-10 md:flex-row md:space-y-0 justify-between max-w-5xl">
+            <div>
+                <a href="/pdf/GLTNL-Pretzels-8oz-SeaSalt-2-20.pdf">
+                    <img src="images/Glutennial-8oz-SeaSalt.png" class="shake transform hover:rotate-5 mx-auto md:mr-0" srcset="images/Glutennial-8oz-SeaSalt.png 1x, images/Glutennial-8oz-SeaSalt@2x.png 2x" alt="">
+                </a>
+                <a class="bg-primary mt-5 xl:mt-10 text-white block text-center text-lg leading-none w-full py-5 rounded-lg hover:text-primary hover:bg-yellow" href="/pdf/GLTNL-Pretzels-8oz-SeaSalt-2-20.pdf">Sea Salt</a>
+                
+                <div class="hidden">
+                    <div class="w-full md:w-5/12 relative z-10 transform -translate-x-4 translate-y-6">
+                        <img src="images/Glutennial-8oz-SeaSalt-big.png" srcset="images/Glutennial-8oz-SeaSalt-big.png 1x, images/Glutennial-8oz-SeaSalt-big@2x.png 2x" class="shake mx-auto w-56 mb-10 md:w-auto md:mb-0 transform" alt="">
+                    </div>
+                    <div class="py-8 md:py-0 w-full md:w-7/12 flex flex-col space-y-6 relative z-10">
+                        <h2 class="text-2xl xl:text-4xl font-extrabold">
+                            <span class="relative px-1 leading-none h-2" style="background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #ffd25e 50%, #ffd25e 90%, #ffffff 90%, #ffffff 100%);">Sea Salt Pretzels</span>
+                        </h2>
+                        <p class="font-medium text-lg">Golden baked to perfection with not a trace of wheat gluten. This new generation of pretzel is launching nationally with Sea Salt, Spicy Sriracha, Honey Mustard, and the 25 other sweet and savory flavors.</p>
+                        <p class="text-lg">At our state-of-the-art facility in Pennsylvania we produce for retail, club, food service and private label with vertical form fill and stand up pouch applications from vending to club size bags.</p>
+                        <p class="text-lg">
+                            <strong class="font-medium ">Ingredients:</strong><br />
+                            Potato Starch, Corn Starch, Rice Flour, Potato Flour, Palm Oil, Tapioca Syrup, Baking Powder (Sodium Acid Pyrophosphate, Corn Starch, Sodium Bicarbonate, Monocalcium Phosphate), Cellulose Gum, Inactive Yeast, Salt, Sodium Hydroxide</p>
+                        <div class="flex space-x-6 pt-4 items-start">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-gluten.png" srcset="images/icon-gluten.png 1x, images/icon-gluten@2x.png 2x" alt="icon-gluten">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-non-gmo.png" srcset="images/icon-non-gmo.png 1x, images/icon-non-gmo@2x.png 2x" alt="icon-non-gmo">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-vegan.png" srcset="images/icon-vegan.png 1x, images/icon-vegan@2x.png 2x" alt="icon-vegan">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-soy.png" srcset="images/icon-soy.png 1x, images/icon-soy@2x.png 2x" alt="Soy Free">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <a href="/pdf/GLTNL-Pretzels-8oz-HoneyMustard-2-20.pdf">
+                    <img src="images/Glutennial-8oz-HoneyMustard-small.png" class="shake transform hover:rotate-5 mx-auto md:mr-0" srcset="images/Glutennial-8oz-HoneyMustard-small.png 1x, images/Glutennial-8oz-HoneyMustard-small@2x.png 2x" alt="">
+                </a>
+                <a class="bg-primary mt-5 xl:mt-10 text-white block text-center text-lg leading-none w-full py-5 rounded-lg hover:text-primary hover:bg-yellow" href="/pdf/GLTNL-Pretzels-8oz-HoneyMustard-2-20.pdf">Honey Mustard</a>
+
+                <div class="hidden">
+                    <div class="w-full md:w-5/12 relative z-10 transform -translate-x-4 translate-y-6">
+                        <img src="images/Glutennial-8oz-HoneyMustard.png" srcset="images/Glutennial-8oz-HoneyMustard.png 1x, images/Glutennial-8oz-HoneyMustard@2x.png 2x" class="shake mx-auto w-56 mb-10 md:w-auto md:mb-0 transform" alt="">
+                    </div>
+                    <div class="py-8 md:py-0 w-full md:w-7/12 flex flex-col space-y-6 relative z-10">
+                        <h2 class="text-2xl xl:text-4xl font-extrabold">
+                            <span class="relative px-1 leading-none h-2" style="background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #ffd25e 50%, #ffd25e 90%, #ffffff 90%, #ffffff 100%);">Honey Mustard Pretzels</span>
+                        </h2>
+                        <p class="font-medium text-lg">Golden baked to perfection with not a trace of wheat gluten. This new generation of pretzel is launching nationally with Sea Salt, Spicy Sriracha, Honey Mustard, and the 25 other sweet and savory flavors.</p>
+                        <p class="text-lg">At our state-of-the-art facility in Pennsylvania we produce for retail, club, food service and private label with vertical form fill and stand up pouch applications from vending to club size bags.</p>
+                        <p class="text-lg">
+                            <strong class="font-medium ">Ingredients:</strong><br />
+                            Potato Starch, Corn Starch, Rice Flour, Potato Flour, Palm Oil, Tapioca Syrup, Baking Powder (Sodium Acid Pyrophosphate, Corn Starch, Sodium Bicarbonate, Monocalcium Phosphate), Cellulose Gum, Inactive Yeast, Salt, Sodium Hydroxide</p>
+                        <div class="flex space-x-6 pt-4 items-start">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-gluten.png" srcset="images/icon-gluten.png 1x, images/icon-gluten@2x.png 2x" alt="icon-gluten">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-non-gmo.png" srcset="images/icon-non-gmo.png 1x, images/icon-non-gmo@2x.png 2x" alt="icon-non-gmo">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-vegan.png" srcset="images/icon-vegan.png 1x, images/icon-vegan@2x.png 2x" alt="icon-vegan">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-soy.png" srcset="images/icon-soy.png 1x, images/icon-soy@2x.png 2x" alt="Soy Free">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <a href="/pdf/GLTNL-Pretzels-8oz-SpicySriracha-2-20.pdf">
+                    <img src="images/Glutennial-8oz-SpicySriracha.png" class="shake transform hover:rotate-5 mx-auto md:mr-0" srcset="images/Glutennial-8oz-SpicySriracha.png 1x, images/Glutennial-8oz-SpicySriracha@2x.png 2x" alt="">
+                </a>
+                <a class="bg-primary mt-5 xl:mt-10 text-white block text-center text-lg leading-none w-full py-5 rounded-lg hover:text-primary hover:bg-yellow" href="/pdf/GLTNL-Pretzels-8oz-SpicySriracha-2-20.pdf">Spicy Sriracha</a>
+
+                <div class="hidden">
+                    <div class="w-full md:w-5/12 relative z-10 transform -translate-x-4 translate-y-6">
+                        <img src="images/Glutennial-8oz-SpicySriracha-big.png" srcset="images/Glutennial-8oz-SpicySriracha-big.png 1x, images/Glutennial-8oz-SpicySriracha-big@2x.png 2x" class="shake mx-auto w-56 mb-10 md:w-auto md:mb-0 transform" alt="">
+                    </div>
+                    <div class="py-8 md:py-0 w-full md:w-7/12 flex flex-col space-y-6 relative z-10">
+                        <h2 class="text-2xl xl:text-4xl font-extrabold">
+                            <span class="relative px-1 leading-none h-2" style="background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #ffd25e 50%, #ffd25e 90%, #ffffff 90%, #ffffff 100%);">Spicy Sriracha Pretzels</span>
+                        </h2>
+                        <p class="font-medium text-lg">Golden baked to perfection with not a trace of wheat gluten. This new generation of pretzel is launching nationally with Sea Salt, Spicy Sriracha, Honey Mustard, and the 25 other sweet and savory flavors.</p>
+                        <p class="text-lg">At our state-of-the-art facility in Pennsylvania we produce for retail, club, food service and private label with vertical form fill and stand up pouch applications from vending to club size bags.</p>
+                        <p class="text-lg">
+                            <strong class="font-medium ">Ingredients:</strong><br />
+                            Potato Starch, Corn Starch, Rice Flour, Potato Flour, Palm Oil, Tapioca Syrup, Baking Powder (Sodium Acid Pyrophosphate, Corn Starch, Sodium Bicarbonate, Monocalcium Phosphate), Cellulose Gum, Inactive Yeast, Salt, Sodium Hydroxide</p>
+                        <div class="flex space-x-6 pt-4 items-start">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-gluten.png" srcset="images/icon-gluten.png 1x, images/icon-gluten@2x.png 2x" alt="icon-gluten">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-non-gmo.png" srcset="images/icon-non-gmo.png 1x, images/icon-non-gmo@2x.png 2x" alt="icon-non-gmo">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-vegan.png" srcset="images/icon-vegan.png 1x, images/icon-vegan@2x.png 2x" alt="icon-vegan">
+                            <img class="w-16 object-fit h-auto object-contain" src="images/icon-soy.png" srcset="images/icon-soy.png 1x, images/icon-soy@2x.png 2x" alt="Soy Free">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section3" class="py-8 xl:py-16 bg-graybg relative">
+        <div class="container">
+            <div class="inside md:flex xl:max-w-6xl">
+                <div class="w-full md:w-5/12 relative z-10 transform -translate-x-4 translate-y-6">
+                    <img src="images/Glutennial-8oz-HoneyMustard.png" srcset="images/Glutennial-8oz-HoneyMustard.png 1x, images/Glutennial-8oz-HoneyMustard@2x.png 2x" class="shake mx-auto w-56 mb-10 md:w-auto md:mb-0 transform" alt="">
+                </div>
+                <div class="py-8 md:py-0 w-full md:w-7/12 flex flex-col space-y-6 relative z-10">
+                    <h2 class="text-2xl xl:text-4xl font-extrabold">
+                        <span class="relative px-1 leading-none h-2" style="background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #ffd25e 50%, #ffd25e 90%, #ffffff 90%, #ffffff 100%);">Honey Mustard Pretzels</span>
+                    </h2>
+                    <p class="font-medium text-lg">Golden baked to perfection with not a trace of wheat gluten. This new generation of pretzel is launching nationally with Sea Salt, Spicy Sriracha, Honey Mustard, and the 25 other sweet and savory flavors.</p>
+                    <p class="text-lg">At our state-of-the-art facility in Pennsylvania we produce for retail, club, food service and private label with vertical form fill and stand up pouch applications from vending to club size bags.</p>
+                    <p class="text-lg">
+                        <strong class="font-medium ">Ingredients:</strong><br />
+                        Potato Starch, Corn Starch, Rice Flour, Potato Flour, Palm Oil, Tapioca Syrup, Baking Powder (Sodium Acid Pyrophosphate, Corn Starch, Sodium Bicarbonate, Monocalcium Phosphate), Cellulose Gum, Inactive Yeast, Salt, Sodium Hydroxide.</p>
+                    <div class="flex space-x-6 pt-4 items-start">
+                        <img class="w-16 object-fit h-auto object-contain" src="images/icon-gluten.png" srcset="images/icon-gluten.png 1x, images/icon-gluten@2x.png 2x" alt="icon-gluten">
+                        <img class="w-16 object-fit h-auto object-contain" src="images/icon-non-gmo.png" srcset="images/icon-non-gmo.png 1x, images/icon-non-gmo@2x.png 2x" alt="icon-non-gmo">
+                        <img class="w-16 object-fit h-auto object-contain" src="images/icon-vegan.png" srcset="images/icon-vegan.png 1x, images/icon-vegan@2x.png 2x" alt="icon-vegan">
+                        <img class="w-16 object-fit h-auto object-contain" src="images/icon-soy.png" srcset="images/icon-soy.png 1x, images/icon-soy@2x.png 2x" alt="Soy Free">
+                    </div>
+                </div>
+            </div>
+            <div class="parollers hidden lg:block">
+                <div class="my-paroller pointer-events-none z-0 absolute left-0 bottom-0 transform rotate-45 translate-y-1/2 -translate-x-16 scale-85" data-paroller-factor="0.3" data-paroller-type="foreground" data-paroller-direction="vertical">
+                    <img src="images/pretzel.png" srcset="images/pretzel.png 1x, images/pretzel@2x.png 2x" alt="Waffle">
+                </div>
+                <div class="my-paroller pointer-events-none z-0 absolute right-0 top-0 transform rotate-45 -translate-y-1/2 translate-x-4" data-paroller-factor="0.2" data-paroller-type="foreground" data-paroller-direction="vertical">
+                    <img src="images/pretzel.png" srcset="images/pretzel.png 1x, images/pretzel@2x.png 2x" alt="Waffle" class="transform scale-100 -rotate-45">
+                </div>
+                <div class="my-paroller pointer-events-none z-0 absolute right-0 bottom-0 transform -translate-x-56 -translate-y-10" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="vertical">
+                    <img src="images/pretzel.png" srcset="images/pretzel.png 1x, images/pretzel@2x.png 2x" alt="Waffle" class="transform scale-75 -rotate-90">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section4" class="py-8 xl:py-16 overflow-hidden overflow-x-hidden">
+        <div class="container max-w-5xl text-center">
+            <h2 class="text-2xl mb-4 xl:text-4xl font-extrabold xl:mb-8">
+                <span class="relative px-1 leading-none h-2" style="background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #ffd25e 50%, #ffd25e 90%, #ffffff 90%, #ffffff 100%);">
+                    NOT YOUR AVERAGE WAFFLE
+                </span>
+            </h2>
+            <p class="mb-8 max-w-2xl mx-auto xl:mb-16">Waffles are just too good to eat only for breakfast. That’s why we set out to make an irresistably crispy waffle snack that you can dig into any time of the day (no syrup needed).</p>
+        </div>
+        <div class="tripleColumn container flex flex-col space-y-10 md:flex-row md:space-y-0 justify-between max-w-5xl">
+            <div>
+                <a href="/pdf/GW-WaffleSnacks-BlueberryMaple.pdf">
+                    <img src="images/GW-Packaging-BlueberryMaple.png" class="transform hover:rotate-5 shake mx-auto" srcset="images/GW-Packaging-BlueberryMaple.png 1x, images/GW-Packaging-BlueberryMaple@2x.png 2x" alt="">
+                </a>
+                <a class="bg-primary mt-5 xl:mt-10 text-white block text-center text-lg leading-none w-full py-5 rounded-lg hover:text-primary hover:bg-yellow" href="/pdf/GW-WaffleSnacks-BlueberryMaple.pdf">Blueberry Maple</a>
+
+                <div class="hidden">
+                	<div class="w-full md:w-5/12 z-10">
+		                <img src="images/GW-Packaging-BlueberryMaple-big.png" srcset="images/GW-Packaging-BlueberryMaple-big.png 1x, images/GW-Packaging-BlueberryMaple-big@2x.png 2x" class="shake mx-auto w-56 mb-10 md:w-auto md:mb-0 xl:transform hover:-rotate-10" alt="">
+		            </div>
+	            
+		            <div class="w-full md:w-7/12 flex flex-col space-y-6 z-10">
+		                <h2 class="text-2xl xl:text-4xl font-extrabold">
+		                    <span class="relative px-1 leading-none h-2" style="background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #ffd25e 50%, #ffd25e 90%, #ffffff 90%, #ffffff 100%);">Blueberry Maple Waffle Snacks</span>
+		                </h2>
+		                <p class="text-lg">Our old-fashioned proprietary waffle ovens create an authentic flavor and unique crispiness that can’t be matched. Pack as an on-the-go snack, enjoy with coffee or serve them as a dessert with melted chocolate or a cinnamon cream cheese dip.</p>
+		                <p class="text-lg hidden">
+		                    <strong class="font-medium ">Ingredients:</strong><br />
+		                    Whole Grain Everything Breadsticks (Whole Wheat Flour, Unbleached Enriched Wheat Flour [Contains Malt Barley Flour, Niacin, Reduced Iron, Thiamin, Riboflavoin, Folic Acid], Poppy Seeds, Sesame Seeds, Onion, Garlic, Salt, Soybean Oil, Yeast, Corn and Malt Syrup, Dried Brewer’s Yeast), Hmo Seasoning (Sugar, Onion Powder, Prepared Mustard [Vinegar, Water, Mustard Seed, Salt, Turmeric], Honey Powder [Maltodextrin, Honey], Salt, Dextrose, Fructose, Wheat Flour, Sodium Diacetate, Malted Barley Flour, Citric Acid, Paprika, Turmeric, Spices), Modified Food Starch, Maltodextrin. Contains: Soy, Wheat</p>
+		                <div class="flex space-x-6 pt-4 items-start">
+		                    <img class="w-16" src="images/icon5.svg" alt="">
+		                    <img class="w-16" src="images/icon6.svg" alt="">
+		                </div>
+		            </div>	
+                </div>
+            </div>
+            <div>
+                <a href="/pdf/GW-WaffleSnacks-Kettle.pdf">
+                    <img src="images/GW-Packaging-KettleCorn-small.png" class="transform hover:rotate-5 shake mx-auto" srcset="images/GW-Packaging-KettleCorn-small.png 1x, images/GW-Packaging-KettleCorn-small@2x.png 2x" alt="">
+                </a>
+                <a class="bg-primary mt-5 xl:mt-10 text-white block text-center text-lg leading-none w-full py-5 rounded-lg hover:text-primary hover:bg-yellow" href="/pdf/GW-WaffleSnacks-Kettle.pdf">Kettle Corn</a>
+
+                <div class="hidden">
+                	<div class="w-full md:w-5/12 z-10">
+		                <img src="images/GW-Packaging-KettleCorn.png" srcset="images/GW-Packaging-KettleCorn.png 1x, images/GW-Packaging-KettleCorn@2x.png 2x" class="shake mx-auto w-56 mb-10 md:w-auto md:mb-0 xl:transform hover:-rotate-10" alt="">
+		            </div>
+	            
+		            <div class="w-full md:w-7/12 flex flex-col space-y-6 z-10">
+		                <h2 class="text-2xl xl:text-4xl font-extrabold">
+		                    <span class="relative px-1 leading-none h-2" style="background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #ffd25e 50%, #ffd25e 90%, #ffffff 90%, #ffffff 100%);">Kettle Corn Waffle Snacks</span>
+		                </h2>
+		                <p class="text-lg">Our old-fashioned proprietary waffle ovens create an authentic flavor and unique crispiness that can’t be matched. Pack as an on-the-go snack, enjoy with coffee or serve them as a dessert with melted chocolate or a cinnamon cream cheese dip.</p>
+		                <p class="text-lg hidden">
+		                    <strong class="font-medium ">Ingredients:</strong><br />
+		                    Whole Grain Everything Breadsticks (Whole Wheat Flour, Unbleached Enriched Wheat Flour [Contains Malt Barley Flour, Niacin, Reduced Iron, Thiamin, Riboflavoin, Folic Acid], Poppy Seeds, Sesame Seeds, Onion, Garlic, Salt, Soybean Oil, Yeast, Corn and Malt Syrup, Dried Brewer’s Yeast), Hmo Seasoning (Sugar, Onion Powder, Prepared Mustard [Vinegar, Water, Mustard Seed, Salt, Turmeric], Honey Powder [Maltodextrin, Honey], Salt, Dextrose, Fructose, Wheat Flour, Sodium Diacetate, Malted Barley Flour, Citric Acid, Paprika, Turmeric, Spices), Modified Food Starch, Maltodextrin. Contains: Soy, Wheat</p>
+		                <div class="flex space-x-6 pt-4 items-start">
+		                    <img class="w-16" src="images/icon5.svg" alt="">
+		                    <img class="w-16" src="images/icon6.svg" alt="">
+		                </div>
+		            </div>	
+                </div>
+            </div>
+            <div>
+                <a href="/pdf/GW-WaffleSnacks-Churro.pdf">
+                    <img src="images/GW-Packaging-Churro.png" class="transform hover:rotate-5 shake mx-auto" srcset="images/GW-Packaging-Churro.png 1x, images/GW-Packaging-Churro@2x.png 2x" alt="">
+                </a>
+                <a class="bg-primary mt-5 xl:mt-10 text-white block text-center text-lg leading-none w-full py-5 rounded-lg hover:text-primary hover:bg-yellow" href="/pdf/GW-WaffleSnacks-Churro.pdf">Churro</a>
+
+                <div class="hidden">
+                	<div class="w-full md:w-5/12 z-10">
+		                <img src="images/GW-Packaging-Churro-big.png" srcset="images/GW-Packaging-Churro-big.png 1x, images/GW-Packaging-Churro-big@2x.png 2x" class="shake mx-auto w-56 mb-10 md:w-auto md:mb-0 xl:transform hover:-rotate-10" alt="">
+		            </div>
+	            
+		            <div class="w-full md:w-7/12 flex flex-col space-y-6 z-10">
+		                <h2 class="text-2xl xl:text-4xl font-extrabold">
+		                    <span class="relative px-1 leading-none h-2" style="background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #ffd25e 50%, #ffd25e 90%, #ffffff 90%, #ffffff 100%);">Churro Waffle Snacks</span>
+		                </h2>
+		                <p class="text-lg">Our old-fashioned proprietary waffle ovens create an authentic flavor and unique crispiness that can’t be matched. Pack as an on-the-go snack, enjoy with coffee or serve them as a dessert with melted chocolate or a cinnamon cream cheese dip.</p>
+		                <p class="text-lg hidden">
+		                    <strong class="font-medium ">Ingredients:</strong><br />
+		                    Whole Grain Everything Breadsticks (Whole Wheat Flour, Unbleached Enriched Wheat Flour [Contains Malt Barley Flour, Niacin, Reduced Iron, Thiamin, Riboflavoin, Folic Acid], Poppy Seeds, Sesame Seeds, Onion, Garlic, Salt, Soybean Oil, Yeast, Corn and Malt Syrup, Dried Brewer’s Yeast), Hmo Seasoning (Sugar, Onion Powder, Prepared Mustard [Vinegar, Water, Mustard Seed, Salt, Turmeric], Honey Powder [Maltodextrin, Honey], Salt, Dextrose, Fructose, Wheat Flour, Sodium Diacetate, Malted Barley Flour, Citric Acid, Paprika, Turmeric, Spices), Modified Food Starch, Maltodextrin. Contains: Soy, Wheat</p>
+		                <div class="flex space-x-6 pt-4 items-start">
+		                    <img class="w-16" src="images/icon5.svg" alt="">
+		                    <img class="w-16" src="images/icon6.svg" alt="">
+		                </div>
+		            </div>	
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section5 py-8 xl:py-16 bg-graybg border-b-8 xl:border-b-15 border-yellow relative">
+        <div class="container">
+        	<div class="inside max-w-6xl md:flex md:flex-row-reverse mx-auto">
+        		<div class="w-full md:w-5/12 z-10">
+	                <img src="images/GW-Packaging-KettleCorn.png" srcset="images/GW-Packaging-KettleCorn.png 1x, images/GW-Packaging-KettleCorn@2x.png 2x" class="shake mx-auto w-56 mb-10 md:w-auto md:mb-0 xl:transform hover:-rotate-10" alt="">
+	            </div>
+
+	            <div class="w-full md:w-7/12 flex flex-col space-y-6 z-10">
+	                <h2 class="text-2xl xl:text-4xl font-extrabold">
+	                    <span class="relative px-1 leading-none h-2" style="background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #ffd25e 50%, #ffd25e 90%, #ffffff 90%, #ffffff 100%);">Kettle Corn Waffle Snacks</span>
+	                </h2>
+	                <p class="text-lg">Our old-fashioned proprietary waffle ovens create an authentic flavor and unique crispiness that can’t be matched. Pack as an on-the-go snack, enjoy with coffee or serve them as a dessert with melted chocolate or a cinnamon cream cheese dip.</p>
+	                <p class="text-lg hidden">
+	                    <strong class="font-medium ">Ingredients:</strong><br />
+	                    Whole Grain Everything Breadsticks (Whole Wheat Flour, Unbleached Enriched Wheat Flour [Contains Malt Barley Flour, Niacin, Reduced Iron, Thiamin, Riboflavoin, Folic Acid], Poppy Seeds, Sesame Seeds, Onion, Garlic, Salt, Soybean Oil, Yeast, Corn and Malt Syrup, Dried Brewer’s Yeast), Hmo Seasoning (Sugar, Onion Powder, Prepared Mustard [Vinegar, Water, Mustard Seed, Salt, Turmeric], Honey Powder [Maltodextrin, Honey], Salt, Dextrose, Fructose, Wheat Flour, Sodium Diacetate, Malted Barley Flour, Citric Acid, Paprika, Turmeric, Spices), Modified Food Starch, Maltodextrin. Contains: Soy, Wheat</p>
+	                <div class="flex space-x-6 pt-4 items-start">
+	                    <img class="w-16" src="images/icon5.svg" alt="">
+	                    <img class="w-16" src="images/icon6.svg" alt="">
+	                </div>
+	            </div>	
+        	</div>
+            
+            <div class="parollers hidden lg:block">
+                <div class="my-paroller pointer-events-none z-0 absolute left-0 top-0 transform translate-y-10 -translate-x-20 scale-85" data-paroller-factor="0.3" data-paroller-type="foreground" data-paroller-direction="vertical">
+                    <img src="images/Waffle-TopDown.png.png" srcset="images/Waffle-TopDown.png 1x, images/Waffle-TopDown@2x.png 2x" alt="Waffle">
+                </div>
+                <div class="my-paroller pointer-events-none z-0 absolute right-0 top-0 transform translate-x-1/2 -translate-y-20" data-paroller-factor="0.2" data-paroller-type="foreground" data-paroller-direction="vertical">
+                    <img src="images/Waffle-TopDown.png.png" srcset="images/Waffle-TopDown.png 1x, images/Waffle-TopDown@2x.png 2x" alt="Waffle" class="transform scale-100 -rotate-45">
+                </div>
+                <div class="my-paroller pointer-events-none z-0 absolute right-0 bottom-0 transform -translate-x-1/2 inset-1/2 w-32 translate-y-4" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="vertical">
+                    <img src="images/Waffle-TopDown.png.png" srcset="images/Waffle-TopDown.png 1x, images/Waffle-TopDown@2x.png 2x" alt="Waffle" class="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container py-8 md:pt-8 xl:py-16 relative z-10">
+            <div class="lg:max-w-md xl:max-w-lg mx-auto relative z-20">
+                <h2 class="mb-5 lg:mb-10 uppercase font-bold text-2xl xl:text-4xl text-center leading-tight"><span class="relative px-1 leading-none h-2" style="background-image: linear-gradient(to bottom, rgba(255,0,0,0) 50%, #ffd25e 50%, #ffd25e 90%, #ffffff 90%, #ffffff 100%);">Connect With Us</span></h2>
+                <form action="https://www.realitea.com/wp-json/contact-form-7/v1/contact-forms/7/feedback" method="POST" class="flex flex-col font-medium space-y-5 mx-a">
+                    <div class="relative group">
+                        <label>Name</label>
+                        <input name="your-name" id="your-name" type="text" value="" class="h-15 border border-primary px-5 w-full rounded font-light">
+                        <span class="wpcf7-form-control-wrap your-name error text-xs text-red-500 hidden"></span>
+                    </div>
+                    <div class="relative group">
+                        <label>Company</label>
+                        <input name="your-company" id="your-company" type="text" value="" class="h-15 border border-primary px-5 w-full rounded font-light">
+                        <span class="wpcf7-form-control-wrap your-company error text-xs text-red-500 hidden"></span>
+                    </div>
+                    <div class="relative group">
+                        <label>Email Address</label>
+                        <input name="your-email" id="your-email" type="email" value="" class="h-15 border border-primary px-5 w-full rounded font-light">
+                        <span class="wpcf7-form-control-wrap your-email error text-xs text-red-500 hidden"></span>
+                    </div>
+                    <div class="relative group">
+                        <textarea class="h-37-5px border border-primary px-5 py-4 w-full rounded font-light placeholder-gray-700" id="your-message" name="your-message" placeholder="Enter Message">
+                    	</textarea>
+                        <span class="wpcf7-form-control-wrap your-message error text-xs text-red-500 hidden"></span>
+                    </div>
+                    <!--                     <div class="relative hidden">
+                        <label class="absolute left-0 text-xs text-greenbg flex items-center py-1 px-5 uppercase">FirstName</label>
+                        <input name="first_name_hp"
+                            id="first_name_hp"
+                            type="text"
+                            value=""
+                            class="h-15 border border-primary px-5 w-full rounded font-light">
+                    </div> -->
+                    <div>
+                        <button class="bg-greenbg outline-none text-white block text-center text-lg leading-none px-4 h-12-5px flex items-center justify-center rounded-lg hover:bg-primary mx-auto"><svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+      </svg> Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <img src="images/Glutennial-8oz-SeaSalt.png" class="left-0 bottom-0 absolute transform translate-y-16 opacity-75 md:opacity-100 z-0 w-56 translate-y-0 md:w-auto " srcset="images/BlueberryMaple.png 1x, images/BlueberryMaple@2x.png 2x" alt="">
+        </div>
+    </section>
+    <footer class="border-t border-primary py-4 space-y-4 md:space-y-0 md:py-6 flex flex-col md:flex-row items-center justify-center font-light relative">
+        <span>© 2020 SnackTrenz, All Rights Reserved.</span>
+        <div class="flex space-x-2 md:absolute md:right-0 md:transform md:-translate-x-2">
+            <a href="#"> <svg class="w-6 h-6 text-gray-500 w-10 h-10 text-primary hover:text-greenbg" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6 9.6-4.298 9.6-9.6S15.302.4 10 .4zm2.274 6.634h-1.443c-.171 0-.361.225-.361.524V8.6h1.805l-.273 1.486H10.47v4.461H8.767v-4.461H7.222V8.6h1.545v-.874c0-1.254.87-2.273 2.064-2.273h1.443v1.581z" /></svg> </a>
+            <a href="#"> <svg class="w-6 h-6 text-gray-500 w-10 h-10 text-primary hover:text-greenbg" fill="currentColor" data-name="Instagram w/circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.19995 19.19995">
+                    <path d="M13.498 6.651a1.656 1.656 0 0 0-.95-.949 2.766 2.766 0 0 0-.928-.172c-.527-.024-.685-.03-2.02-.03s-1.493.006-2.02.03a2.766 2.766 0 0 0-.929.172 1.656 1.656 0 0 0-.949.95 2.766 2.766 0 0 0-.172.928c-.024.527-.03.685-.03 2.02s.006 1.493.03 2.02a2.766 2.766 0 0 0 .172.929 1.656 1.656 0 0 0 .95.949 2.766 2.766 0 0 0 .928.172c.527.024.685.029 2.02.029s1.493-.005 2.02-.03a2.766 2.766 0 0 0 .929-.171 1.656 1.656 0 0 0 .949-.95 2.766 2.766 0 0 0 .172-.928c.024-.527.029-.685.029-2.02s-.005-1.493-.03-2.02a2.766 2.766 0 0 0-.171-.929zM9.6 12.168A2.568 2.568 0 1 1 12.168 9.6 2.568 2.568 0 0 1 9.6 12.168zm2.669-4.637a.6.6 0 1 1 .6-.6.6.6 0 0 1-.6.6z" />
+                    <circle cx="9.6" cy="9.6" r="1.667" />
+                    <path d="M9.6 0a9.6 9.6 0 1 0 9.6 9.6A9.6 9.6 0 0 0 9.6 0zm4.97 11.661a3.67 3.67 0 0 1-.233 1.214 2.556 2.556 0 0 1-1.462 1.462 3.67 3.67 0 0 1-1.213.233c-.534.024-.704.03-2.062.03s-1.528-.006-2.062-.03a3.67 3.67 0 0 1-1.213-.233 2.556 2.556 0 0 1-1.462-1.462 3.67 3.67 0 0 1-.233-1.213c-.024-.534-.03-.704-.03-2.062s.006-1.528.03-2.062a3.67 3.67 0 0 1 .232-1.213 2.556 2.556 0 0 1 1.463-1.463 3.67 3.67 0 0 1 1.213-.232c.534-.024.704-.03 2.062-.03s1.528.006 2.062.03a3.67 3.67 0 0 1 1.213.232 2.556 2.556 0 0 1 1.462 1.463 3.67 3.67 0 0 1 .233 1.213c.024.534.03.704.03 2.062s-.006 1.528-.03 2.062z" /></svg> </a>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script defer="defer" src="https://tgomilar.github.io/paroller.js/dist/jquery.paroller.js"></script>
+    <script defer="defer" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.slider').bxSlider({
+            pagerCustom: '#bx-pager',
+            controls: false,
+            adaptiveHeight: true
+        });
+
+        $('form input')
+            .focusin(function() {
+                $(this).prev().addClass('active');
+                $(this).parent().find('.error').addClass('hidden');
+            })
+            .focusout(function() {
+                if ($(this).val().length == 0) {
+                    $(this).prev().removeClass('active');
+                }
+            });
+
+        $("form").submit(function(event) {
+            // console.log($(this).serialize());
+            event.preventDefault(); //prevent default action 
+            let post_url = $(this).attr("action"); //get form action url
+            let request_method = $(this).attr("method"); //get form GET/POST method
+            let form_data = $(this).serialize(); //Encode form elements for submission
+
+            $(this).find('button svg').removeClass('hidden');
+
+            $.ajax({
+                    url: post_url,
+                    type: request_method,
+                    data: form_data,
+                    crossDomain: true,
+                    headers: {
+                        'Accept': 'application/json',
+                    },
+                })
+                .done((response) => { //
+                    console.log('Success');
+                    $(this).find('button svg').addClass('hidden');
+                    console.log(response);
+
+                    if (response.status == 'mail_sent') {
+                        swal({
+                            title: response.status.split("_").map(([firstChar, ...rest]) => firstChar.toUpperCase() + rest.join("").toLowerCase()).join(" "),
+                            text: response.message,
+                            icon: "success",
+                            button: "Okay",
+                        });
+                    } else {
+                        let invalid_fields = response.invalid_fields;
+
+                        invalid_fields.forEach(element => {
+                            $(element.into).text(element.message).removeClass('hidden');
+                        });
+
+
+                        swal({
+                            title: response.status.split("_").map(([firstChar, ...rest]) => firstChar.toUpperCase() + rest.join("").toLowerCase()).join(" "),
+                            text: response.message,
+                            icon: "error",
+                            button: "Okay",
+                        });
+                    }
+                });
+            // .fail(function(error){
+            //     console.log(error.responseJSON.errors);
+            //     $('form .error').remove();
+
+            //     $.each(error.responseJSON.errors, function( index, value ) {
+            //         $('[name="'+index+'"]').parent().find('.error').remove();
+            //         $('[name="'+index+'"]').parent().append('<span class="error text-xs text-red-500">' +value[0]+ '</span>');
+            //     });
+            // });
+        });
+
+        $('[data-paroller-factor]').paroller();
+
+        $('a[href^="#"]').on('click', function(e) {
+            e.preventDefault();
+
+            var target = this.hash,
+                $target = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function() {
+                window.location.hash = target;
+            });
+        });
+
+        $('.tripleColumn > div a').click(function(){
+        	let html = $(this).parent('div').find('.hidden').html();
+        	$(this).parents('section').next('section').find('.inside').html(html);
+
+        	var cls = $(this).parents('section').next('section').offset().top;
+			$("html, body").animate({scrollTop: cls}, "slow");
+
+        	return false;
+        });
+    });
+    </script>
+</body>
+
+</html>
